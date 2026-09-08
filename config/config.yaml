@@ -1,0 +1,31 @@
+project:
+  name: banking-fraud-detection
+  version: "0.1.0"
+  random_seed: 42
+
+data_generation:
+  number_of_customers: 2000
+  number_of_merchants: 500
+  number_of_transactions: 50000
+  start_date: "2025-01-01"
+  end_date: "2025-06-30"
+  currency: "AUD"
+  timezone: "Australia/Melbourne"
+  output_directory: "data/generated"
+
+fraud:
+  target_fraud_rate: 0.01
+
+  scenario_weights:
+    unusual_high_value: 0.20
+    new_beneficiary_scam: 0.20
+    account_takeover: 0.20
+    rapid_transaction_burst: 0.15
+    impossible_geographic_movement: 0.10
+    transaction_structuring: 0.15
+
+validation:
+  allow_duplicate_transaction_ids: false
+  allow_missing_customer_ids: false
+  allow_negative_transaction_amounts: false
+  maximum_missing_percentage: 0.01

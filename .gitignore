@@ -1,0 +1,30 @@
+# Python environment
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+credentials/
+service-account*.json
+*credentials*.json
+
+# Generated data and models
+data/generated/
+data/processed/
+models/
+logs/
+*.log
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
