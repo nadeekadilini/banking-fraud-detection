@@ -1,0 +1,2 @@
+total_transactions,total_fraud_transactions,total_alerts,true_positives,false_positives,true_negatives,false_negatives,precision,recall,f1_score,false_positive_rate,total_fraud_value,detected_fraud_value,fraud_value_capture_rate
+10000,100,102,89,13,9887,11,0.8725,0.89,0.8812,0.0013,453115.43,437624.39,0.9658

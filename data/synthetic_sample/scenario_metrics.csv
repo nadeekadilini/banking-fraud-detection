@@ -1,0 +1,5 @@
+fraud_scenario,fraud_transactions,detected_transactions,total_fraud_value,detected_fraud_value,scenario_recall,value_capture_rate
+account_takeover,25,25,193297.89,193297.89,1.0,1.0
+mule_account_activity,25,25,61111.23,61111.23,1.0,1.0
+new_beneficiary_scam,25,25,155409.75,155409.75,1.0,1.0
+rapid_payment_burst,25,14,43296.56,27805.52,0.56,0.6422
