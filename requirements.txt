@@ -6,3 +6,5 @@ scikit-learn
 plotly
 streamlit
 pytest
+google-cloud-bigquery
+db-dtypes
